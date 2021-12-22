@@ -1,0 +1,42 @@
+{
+    "1234dfg": {
+        "name": "French Fries with Ketchup",
+        "price": "2.23",
+        "img": "public/plate__french-fries"
+    },
+    "2df345": {
+        "name": "Salmon and Vegetables",
+        "price": "5.12",
+        "img": "public/plate__salmon-vegetables"
+    },
+    "33245sdf": {
+        "name": "Spaghetti with Sauce",
+        "price": "7.82",
+        "img": "public/plate__spaghetti-meat-sauce"
+    },
+    "4tew456": {
+        "name": "Bacon Eggs",
+        "price": "3.45",
+        "img": "public/plate__bacon-eggs"
+    },
+    "5fg3456fg": {
+        "name": "Chicken Salad",
+        "price": "5.67",
+        "img": "public/plate__chicken-salad"
+    },
+    "6456dfg": {
+        "name": "Fish Sticks Fries",
+        "price": "7.34",
+        "img": "public/plate__fish-sticks-fries"
+    },
+    "7563bvrty": {
+        "name": "Ravioli",
+        "price": "23.45",
+        "img": "public/plate__ravioli"
+    },
+    "10456vgg": {
+        "name": "Tortellini",
+        "price": "73.23",
+        "img": "public/plate__tortellini"
+    }
+}
