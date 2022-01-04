@@ -1,0 +1,36 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+
+  color: var(--text);
+  background-color: var(--background);
+
+  font-family: var(--font);
+}
+
+body {
+  min-height: 100vh;
+}
+
+a {
+  text-decoration: none;
+
+  color: inherit;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --background: #EFF0F6;
+  --border-color: #D7D7F9;
+  --primary: #6B00F5;
+  --pattens-blue: #e1f1fe;
+  --pale-rose: #ffe2f0;
+  --ghost-white: #f7f7fe;
+  --white-ice: #defef0;
+  --black: #000000;
+  --font: "Poppins", Arial, sans-serif;
+}

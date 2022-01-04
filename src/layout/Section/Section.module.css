@@ -1,0 +1,8 @@
+.section {
+  padding: 50px 35px;
+  background-color: #ffffff;
+  border-radius: 25px;
+  max-height: calc(100vh - 210px);
+  height: calc(100vh - 210px);
+  overflow: auto;
+}
