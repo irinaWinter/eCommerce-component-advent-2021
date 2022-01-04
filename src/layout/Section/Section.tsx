@@ -3,9 +3,9 @@ import styles from './Section.module.css';
 
 const Section = ({ children }: SectionProps): JSX.Element => {
     return (
-        <div className={styles.section}>
+        <section className={styles.section}>
             {children}
-        </div>
+        </section>
     );
 };
 

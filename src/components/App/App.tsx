@@ -1,5 +1,4 @@
-import Layout from '../../layout/Layout';
-import Section from '../../layout/Section/Section';
+import { Layout, Section } from '../../layout';
 import { Htag } from '..';
 
 const App = (): JSX.Element => (
