@@ -26,7 +26,7 @@
     "images.d.ts",
     "**/*.ts",
     "**/*.tsx"
-  ],
+, "src/services/products.js", "src/components/ProductsServiceProvider/index.js"  ],
   "exclude": [
     "node_modules"
   ]

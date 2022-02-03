@@ -1,42 +1,42 @@
 {
-    "1234dfg": {
-        "name": "French Fries with Ketchup",
-        "price": "2.23",
-        "img": "public/plate__french-fries"
-    },
-    "2df345": {
-        "name": "Salmon and Vegetables",
-        "price": "5.12",
-        "img": "public/plate__salmon-vegetables"
-    },
-    "33245sdf": {
-        "name": "Spaghetti with Sauce",
-        "price": "7.82",
-        "img": "public/plate__spaghetti-meat-sauce"
-    },
-    "4tew456": {
-        "name": "Bacon Eggs",
-        "price": "3.45",
-        "img": "public/plate__bacon-eggs"
-    },
-    "5fg3456fg": {
-        "name": "Chicken Salad",
-        "price": "5.67",
-        "img": "public/plate__chicken-salad"
-    },
-    "6456dfg": {
-        "name": "Fish Sticks Fries",
-        "price": "7.34",
-        "img": "public/plate__fish-sticks-fries"
-    },
-    "7563bvrty": {
-        "name": "Ravioli",
-        "price": "23.45",
-        "img": "public/plate__ravioli"
-    },
-    "10456vgg": {
-        "name": "Tortellini",
-        "price": "73.23",
-        "img": "public/plate__tortellini"
-    }
+  "r1234dfg": {
+    "name": "French Fries with Ketchup",
+    "price": "2.23",
+    "img": "img/plate__french-fries.png"
+  },
+  "t2df345": {
+    "name": "Salmon and Vegetables",
+    "price": "5.12",
+    "img": "img/plate__salmon-vegetables.png"
+  },
+  "y33245sdf": {
+    "name": "Spaghetti with Sauce",
+    "price": "7.82",
+    "img": "img/plate__spaghetti-meat-sauce.png"
+  },
+  "u4tew456": {
+    "name": "Bacon Eggs",
+    "price": "3.45",
+    "img": "img/plate__bacon-eggs.png"
+  },
+  "u5fg3456fg": {
+    "name": "Chicken Salad",
+    "price": "5.67",
+    "img": "img/plate__chicken-salad.png"
+  },
+  "u6456dfg": {
+    "name": "Fish Sticks Fries",
+    "price": "7.34",
+    "img": "img/plate__fish-sticks-fries.png"
+  },
+  "u7563bvrty": {
+    "name": "Ravioli",
+    "price": "23.45",
+    "img": "img/plate__ravioli.png"
+  },
+  "u10456vgg": {
+    "name": "Tortellini",
+    "price": "73.23",
+    "img": "img/plate__tortellini.png"
+  }
 }
