@@ -27,19 +27,42 @@
   background-color: var(--black);
 }
 
-.ghost {
-  color: var(--black);
-  border: 1px solid var(--gray-light);
-  background-color: transparent;
+.inCart {
+  display: flex;
+  align-items: center;
+  background-color: var(--black);
 }
 
-.ghost:hover {
-  color: var(--white);
+.inCart:hover {
   background-color: var(--primary);
 }
 
-.arrow {
-  display: inline-block;
+.inCart::before {
+  content: "";
+  margin-right: 10px;
+  width: 22px;
+  height: 17px;
+  background-image: url("icons/in-cart-icon.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
 
-  margin-left: 10px;
+.arrow {
+  display: block;
+
+  padding: 0;
+
+  width: 32px;
+  height: 32px;
+
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.left {
+  background-image: url("icons/arrow-left.svg");
+}
+
+.right {
+  background-image: url("icons/arrow-right.svg");
 }

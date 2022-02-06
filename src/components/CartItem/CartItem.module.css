@@ -1,0 +1,92 @@
+.product {
+  position: relative;
+
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: flex-start;
+
+  padding: 0 0 40px 0;
+
+  border-bottom: 1px solid #d7d7f9;
+}
+
+.product:last-child {
+  border-bottom-width: 5px;
+}
+
+.description {
+  flex-grow: 1;
+
+  position: relative;
+
+  z-index: 1;
+}
+
+.price {
+  margin: 0 0 16px;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+}
+
+.imgWrapper {
+  position: relative;
+  display: flex;
+  margin: 0 10px 0 0;
+}
+
+.img {
+  flex-shrink: 0;
+
+  margin: -10px 0 0;
+
+  width: 65px;
+  height: 65px;
+
+  object-fit: contain;
+}
+
+.leftCount {
+  margin: -6px 0 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #000000;
+  min-width: 32px;
+  min-height: 32px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3px;
+
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.countBox {
+  display: flex;
+  justify-content: space-between;
+}
+
+.count {
+  margin: 0 10px;
+  min-width: 27px;
+  text-align: center;
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.total {
+  margin: 0 0 0 5px;
+}

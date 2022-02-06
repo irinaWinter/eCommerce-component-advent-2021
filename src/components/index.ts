@@ -8,5 +8,9 @@ import { Button } from './Button/Button';
 import {ProductsServiceProvider, ProductsServiceConsumer} from './ProductsServiceProvider'
 import withProductsService from './Hoc'
 import { Loader } from './Loader/Loader';
+import Cart from './Cart/Cart';
+import { CartItem } from './CartItem/CartItem';
+import { Total } from './Total/Total';
+import { Price } from './Price/Price';
 
-export { App, ErrorBoundry, ErrorIndicator, Htag, ProductList, Product, Button, ProductsServiceProvider, ProductsServiceConsumer, withProductsService, Loader }
+export { App, ErrorBoundry, ErrorIndicator, Htag, ProductList, Product, Button, ProductsServiceProvider, ProductsServiceConsumer, withProductsService, Loader, Cart, CartItem, Total, Price }

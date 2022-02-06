@@ -1,3 +1,5 @@
 import { productsRequested, productsLoaded, productsError } from './products';
 
-export {productsRequested, productsLoaded, productsError};
+import { cartRequested, cartLoaded, cartUpdated, cartError } from './cart';
+
+export {productsRequested, productsLoaded, productsError, cartRequested, cartLoaded, cartUpdated, cartError};

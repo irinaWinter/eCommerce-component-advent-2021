@@ -1,0 +1,18 @@
+.price {
+  margin: 16px 0;
+
+  font-weight: 700;
+  line-height: 100%;
+}
+
+.price::before {
+  content: "$";
+}
+
+.xs {
+  font-size: 32px;
+}
+
+.sm {
+  font-size: 16px;
+}
