@@ -1,0 +1,12 @@
+.total {
+  margin: 35px 0 0;
+}
+
+.price {
+  display: grid;
+  grid-template-columns: 1fr 130px;
+  align-items: baseline;
+
+  font-weight: 700;
+  text-align: right;
+}

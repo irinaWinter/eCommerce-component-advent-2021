@@ -5,7 +5,7 @@ import { ProductsStateModel } from '../interfaces/ProductsStateModel';
 const initialState: ProductsStateModel = {
   products: {},
   loading: true,
-  error: null
+  error: null,
 };
 
 const cartReducer = (state = initialState, action: ActionModel) => {

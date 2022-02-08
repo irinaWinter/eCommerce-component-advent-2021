@@ -16,3 +16,7 @@
 .sm {
   font-size: 16px;
 }
+
+.accent {
+  color: var(--primary);
+}
