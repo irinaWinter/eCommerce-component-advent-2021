@@ -31,6 +31,13 @@
   align-items: center;
 }
 
+@media (max-width: 480px) {
+  .buttons {
+    justify-content: space-between;
+    width: 100%;
+  }
+}
+
 .imgWrapper {
   position: relative;
   display: flex;
@@ -75,6 +82,13 @@
 .countBox {
   display: flex;
   justify-content: space-between;
+}
+
+@media (max-width: 480px) {
+  .countBox {
+    flex-direction: column;
+    align-items: flex-end;
+  }
 }
 
 .count {

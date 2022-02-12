@@ -12,6 +12,14 @@
   scrollbar-width: none; /* Firefox */
 }
 
+@media (max-width: 480px) {
+  .section {
+    padding: 30px 20px;
+
+    max-height: 400px;
+  }
+}
+
 .section::-webkit-scrollbar {
   /* chrome based */
   width: 0px; /* ширина scrollbar'a */
